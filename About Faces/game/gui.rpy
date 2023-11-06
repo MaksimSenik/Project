@@ -29,14 +29,14 @@ define config.check_conflicting_properties = True
 define gui.accent_color = '#9933ff'
 
 ## Цвет, используемый в текстовой кнопке, когда она не выбрана и не наведена.
-define gui.idle_color = '#888888'
+define gui.idle_color = '#ff4e33'
 
 ## Small_color используется в маленьком тексте, который должен быть ярче/темнее,
 ## для того, чтобы выделяться.
 define gui.idle_small_color = '#aaaaaa'
 
 ## Цвет, используемых в кнопках и панелях, когда они наведены.
-define gui.hover_color = '#c184ff'
+define gui.hover_color = '#0000ff'
 
 ## Цвет, используемый текстовой кнопкой, когда она выбрана, но не наведена.
 ## Кнопка может быть выбрана, если это текущий экран или текущее значение
@@ -52,23 +52,23 @@ define gui.muted_color = '#3d1466'
 define gui.hover_muted_color = '#5b1e99'
 
 ## Цвета, используемые в тексте диалогов и выборов.
-define gui.text_color = '#ffffff'
-define gui.interface_text_color = '#ffffff'
+define gui.text_color = '#997a8d'
+define gui.interface_text_color = '#997a8d'
 
 
 ## Шрифты и их размеры #########################################################
 
 ## Шрифт, используемый внутриигровым текстом.
-define gui.text_font = "DejaVuSans.ttf"
+define gui.text_font = "gui/Rosarium.ttf"
 
 ## Шрифт, используемый именами персонажей.
-define gui.name_text_font = "DejaVuSans.ttf"
+define gui.name_text_font = "gui/Rosarium.ttf"
 
 ## Шрифт, используемый текстом вне игры.
-define gui.interface_text_font = "DejaVuSans.ttf"
+define gui.interface_text_font = "gui/Rosarium.ttf"
 
 ## Размер нормального текста диалога.
-define gui.text_size = 33
+define gui.text_size = 50
 
 ## Размер имён персонажей.
 define gui.name_text_size = 45
@@ -83,14 +83,14 @@ define gui.label_text_size = 36
 define gui.notify_text_size = 24
 
 ## Размер заголовка игры.
-define gui.title_text_size = 75
+define gui.title_text_size = 80
 
 
 ## Главное и игровое меню. #####################################################
 
 ## Изображения, используемые в главном и игровом меню.
-define gui.main_menu_background = "gui/main_menu.png"
-define gui.game_menu_background = "gui/game_menu.png"
+define gui.main_menu_background = "gui/main_menu.jpg"
+define gui.game_menu_background = "gui/game_menu.jpg"
 
 
 ## Диалог ######################################################################
@@ -98,7 +98,7 @@ define gui.game_menu_background = "gui/game_menu.png"
 ## Эти переменные контролируют, как диалог появляется на отдельной строчке.
 
 ## Высота текстового окна, содержащего диалог.
-define gui.textbox_height = 278
+define gui.textbox_height = 280
 
 ## Местоположение текстового окна по вертикали экрана. 0.0 — верх, 0.5 — центр и
 ## 1.0 — низ.
@@ -137,7 +137,7 @@ define gui.dialogue_xpos = 402
 define gui.dialogue_ypos = 75
 
 ## Максимальная ширина текста диалога в пикселях.
-define gui.dialogue_width = 1116
+define gui.dialogue_width = 1110
 
 ## Горизонтальное выравнивание текста диалога. Это может быть 0.0 для
 ## левоориентированного, 0.5 для центрированного и 1.0 для правоориентированного
