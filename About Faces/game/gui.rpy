@@ -26,7 +26,7 @@ define config.check_conflicting_properties = True
 ## Цвета текста в интерфейсе.
 
 ## Акцентный цвет используется в заголовках и подчёркнутых текстах.
-define gui.accent_color = '#9933ff'
+define gui.accent_color = '#0000ff'
 
 ## Цвет, используемый в текстовой кнопке, когда она не выбрана и не наведена.
 define gui.idle_color = '#ff4e33'
@@ -41,7 +41,7 @@ define gui.hover_color = '#0000ff'
 ## Цвет, используемый текстовой кнопкой, когда она выбрана, но не наведена.
 ## Кнопка может быть выбрана, если это текущий экран или текущее значение
 ## настройки.
-define gui.selected_color = '#ffffff'
+define gui.selected_color = '#997a8d'
 
 ## Цвет, используемый текстовой кнопкой, когда она не может быть выбрана.
 define gui.insensitive_color = '#8888887f'
@@ -52,7 +52,7 @@ define gui.muted_color = '#3d1466'
 define gui.hover_muted_color = '#5b1e99'
 
 ## Цвета, используемые в тексте диалогов и выборов.
-define gui.text_color = '#997a8d'
+define gui.text_color = '#b76e79'
 define gui.interface_text_color = '#997a8d'
 
 
