@@ -59,13 +59,13 @@ define gui.interface_text_color = '#20B2AA'
 ## Шрифты и их размеры #########################################################
 
 ## Шрифт, используемый внутриигровым текстом.
-define gui.text_font = "gui/Rosarium.ttf"
+define gui.text_font = "gui/Ubuntu-R.ttf"
 
 ## Шрифт, используемый именами персонажей.
-define gui.name_text_font = "gui/Rosarium.ttf"
+define gui.name_text_font = "gui/Ubuntu-R.ttf"
 
 ## Шрифт, используемый текстом вне игры.
-define gui.interface_text_font = "gui/Rosarium.ttf"
+define gui.interface_text_font = "gui/Ubuntu-R.ttf"
 
 ## Размер нормального текста диалога.
 define gui.text_size = 50
