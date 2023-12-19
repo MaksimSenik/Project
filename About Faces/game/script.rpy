@@ -104,6 +104,9 @@ label story:
     play music "room.mp3" fadeout 1
     scene bath
     with Dissolve(1)
+    show nika:
+        xalign 0.75
+        yalign 0.5
     nika "*Опять забыла, что я вообще-то собиралась начать жить сегодняшний день*"
     "(Убирая волосы с лица, пошла умываться)"
     nika "*Звук воды, раздражает и успокаивает одновременно*"
