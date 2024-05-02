@@ -2,27 +2,27 @@
 
 While running game code:
   File "game/script.rpy", line 8, in script
-    define nurse = Caharacter('Медсестра', color="f0768b")
+    define nurse = Caharacter('Медсестра', color="DB7093")
   File "game/script.rpy", line 8, in <module>
-    define nurse = Caharacter('Медсестра', color="f0768b")
+    define nurse = Caharacter('Медсестра', color="DB7093")
 NameError: name 'Caharacter' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
   File "game/script.rpy", line 8, in script
-    define nurse = Caharacter('Медсестра', color="f0768b")
-  File "D:\Renpy\renpy-8.1.3-sdk\renpy\ast.py", line 2508, in execute
+    define nurse = Caharacter('Медсестра', color="DB7093")
+  File "D:\renpy-8.1.3-sdk\renpy\ast.py", line 2508, in execute
     self.set()
-  File "D:\Renpy\renpy-8.1.3-sdk\renpy\ast.py", line 2522, in set
+  File "D:\renpy-8.1.3-sdk\renpy\ast.py", line 2522, in set
     value = renpy.python.py_eval_bytecode(self.code.bytecode)
-  File "D:\Renpy\renpy-8.1.3-sdk\renpy\python.py", line 1146, in py_eval_bytecode
+  File "D:\renpy-8.1.3-sdk\renpy\python.py", line 1146, in py_eval_bytecode
     return eval(bytecode, globals, locals)
   File "game/script.rpy", line 8, in <module>
-    define nurse = Caharacter('Медсестра', color="f0768b")
+    define nurse = Caharacter('Медсестра', color="DB7093")
 NameError: name 'Caharacter' is not defined
 
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.1.3.23091805
 About Faces 0.1
-Mon Feb 19 09:49:36 2024
+Thu May  2 21:47:28 2024
