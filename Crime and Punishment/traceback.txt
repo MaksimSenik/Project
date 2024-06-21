@@ -1,48 +1,40 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-Compiling ATL code at game/script.rpy:27
-  File "game/script.rpy", line 26, in script
-    show rask_s:
-  File "game/script.rpy", line 27, in <module>
-    xaling (0.0)
-NameError: name 'xaling' is not defined
+While running game code:
+  File "game/script.rpy", line 28, in script
+    play zahlopnuli-dver-v-komnatu.mp3
+  File "renpy/common/000statements.rpy", line 123, in execute_play_music
+    renpy.music.play(_audio_eval(p["file"]),
+  File "renpy/common/000statements.rpy", line 32, in _audio_eval
+    return eval(expr, locals=store.audio.__dict__)
+  File "game/script.rpy", line 28, in <module>
+    play zahlopnuli-dver-v-komnatu.mp3
+NameError: name 'dver' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 26, in script
-    show rask_s:
-  File "D:\renpy-8.1.3-sdk\renpy\ast.py", line 1428, in execute
-    show_imspec(self.imspec, atl=getattr(self, "atl", None))
-  File "D:\renpy-8.1.3-sdk\renpy\ast.py", line 1391, in show_imspec
-    renpy.config.show(name,
-  File "D:\renpy-8.1.3-sdk\renpy\exports.py", line 759, in show
-    sls.add(layer, img, key, zorder, behind, at_list=at_list, name=name, atl=atl, default_transform=default_transform, transient=transient)
-  File "D:\renpy-8.1.3-sdk\renpy\display\core.py", line 1280, in add
-    thing.visit_all(lambda d : None)
-  File "D:\renpy-8.1.3-sdk\renpy\display\core.py", line 674, in visit_all
-    for d in self.visit():
-  File "D:\renpy-8.1.3-sdk\renpy\atl.py", line 636, in visit
-    block = self.compile()
-  File "D:\renpy-8.1.3-sdk\renpy\atl.py", line 543, in compile
-    block = self.atl.compile(self.context)
-  File "D:\renpy-8.1.3-sdk\renpy\atl.py", line 745, in compile
-    statements = [ i.compile(ctx) for i in self.statements ]
-  File "D:\renpy-8.1.3-sdk\renpy\atl.py", line 745, in <listcomp>
-    statements = [ i.compile(ctx) for i in self.statements ]
-  File "D:\renpy-8.1.3-sdk\renpy\atl.py", line 1042, in compile
-    child = ctx.eval(expr)
-  File "D:\renpy-8.1.3-sdk\renpy\atl.py", line 264, in eval
-    return renpy.python.py_eval(expr, locals=self.context)
+  File "game/script.rpy", line 28, in script
+    play zahlopnuli-dver-v-komnatu.mp3
+  File "D:\renpy-8.1.3-sdk\renpy\ast.py", line 2259, in execute
+    self.call("execute")
+  File "D:\renpy-8.1.3-sdk\renpy\ast.py", line 2241, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "D:\renpy-8.1.3-sdk\renpy\statements.py", line 342, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 123, in execute_play_music
+    renpy.music.play(_audio_eval(p["file"]),
+  File "renpy/common/000statements.rpy", line 32, in _audio_eval
+    return eval(expr, locals=store.audio.__dict__)
   File "D:\renpy-8.1.3-sdk\renpy\python.py", line 1153, in py_eval
     return py_eval_bytecode(code, globals, locals)
   File "D:\renpy-8.1.3-sdk\renpy\python.py", line 1146, in py_eval_bytecode
     return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 27, in <module>
-    xaling (0.0)
-NameError: name 'xaling' is not defined
+  File "game/script.rpy", line 28, in <module>
+    play zahlopnuli-dver-v-komnatu.mp3
+NameError: name 'dver' is not defined
 
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.1.3.23091805
 Crime and Punishment 0.0
-Fri May 31 18:31:39 2024
+Sat Jun 22 01:27:39 2024
